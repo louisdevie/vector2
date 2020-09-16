@@ -1,6 +1,6 @@
 __all__ = ['Vector']
 
-__doc__ = """Module to hadle vectors in a 2D space."""
+__doc__ = """Module to handle vectors in a 2D space."""
 
 import math
 
