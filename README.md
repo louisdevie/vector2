@@ -21,4 +21,5 @@ You can declare a vector by passing :
 `Vector( x=x, y=y )` -> same as `Vector((x, y))`
 
 Positional arguments, if they're given correctly, will override keyword arguments.
-The x and y will override coords, wich will override angle and len."""
+
+The x and y will override coords, wich will override angle and len.
