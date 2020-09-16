@@ -3,6 +3,7 @@
 Module to handle vectors in a 2D space.
 
 **vector2.Vector :**
+
   Represent a 2D vector.
   
   You can declare a vector by passing :
