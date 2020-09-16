@@ -7,6 +7,7 @@ Module to handle vectors in a 2D space.
   Represent a 2D vector.
   
   You can declare a vector by passing :
+  
   `Vector()` -> null vector
   `Vector( (x, y) )` -> vector of coordinates (`x`, `y`)
   `Vector( angle, length )` -> vector of length `length` pointing towards `angle` in radians
