@@ -195,3 +195,10 @@ The x and y will override coords, wich will override angle and len."""
 	def yint(self):
 		"""return the y coordinate as an integer"""
 		return int(self.y)
+	
+	def is_equal_to(self, vector):
+		if type(vector) is Vector:
+			return self.x==vector.x and self.y==vector.y
+
+		else:
+			raise TypeError('you can only test if a vector is the same as another vector')
