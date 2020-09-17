@@ -22,4 +22,10 @@ You can declare a vector by passing :
 
 Positional arguments, if they're given correctly, will override keyword arguments.
 
-The x and y will override coords, wich will override angle and len.
+The `x` and `y` will override `coords`, wich will override `angle` and `len`.
+
+You can add/substact two vectors together, or multiply/divide them by a scalar.
+
+`vector.length()` -> return the distance from the origin to the extremity of the vector.
+
+You can compare a vector to another or to a number (the length of the vector(s) will be used).
