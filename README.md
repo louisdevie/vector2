@@ -1,12 +1,12 @@
 ## vector2.py
 
-*#EN*
+*========== EN ==========*
 
 Module to handle vectors in a 2D space.
 
 **vector2.Vector :**
 
-Represent a 2D vector.
+Represent a 2D vector. It can be interpreted as a tuple of length 2 like (x, y).
   
 You can declare a vector by passing :
   
@@ -30,17 +30,25 @@ You can add/substact two vectors together, or multiply/divide them by a scalar.
 
 `vector.length()` -> return the distance from the origin to the extremity of the vector.
 
-You can compare a vector to another or to a number (the length of the vector(s) will be used).
+You can compare a vector to another or to a number *(the length of the vector(s) will be used)*.
 
+`vector.xint()` -> return the integer part of the x-coordinate.
 
+`vector.yint()` -> same, but with the y-coordinate.
 
-*#FR*
+`vector.as_tuple()` -> convert to a tuple.
+
+`vector.as_int_tuple()` -> shortcut for `(vector.xint(), vector.yint())`.
+
+`vector.is_equal_to(other)` -> with the `==` or the `!=` operators, two vectors will be compared by their length. use `is_equal_to` to test if they're *exactly* the same.
+
+*========== FR ==========*
 
 Module pour gérer des vecteurs sur un plan.
 
 **vector2.Vector :**
 
-Représente un vecteur bidimensionnel.
+Représente un vecteur bidimensionnel. Il peut être directement interprété comme un tuple comme (x, y).
   
 Vous pouvez déclarer un vecteur en faisant :
   
@@ -66,3 +74,12 @@ Vous pouvez ajouter/soustaire deux vecteurs ensemble, ou les multiplier/diviser 
 
 Vous pouvez comparer un vecteur à un autre ou à un nombre (la longueur de(s) vecteur(s) sera utilisée).
 
+`vector.xint()` -> retourne la partie entière de l'abscisse du vecteur.
+
+`vector.yint()` -> pareil, mais avec l'ordonnée.
+
+`vector.as_tuple()` -> convertit en tuple.
+
+`vector.as_int_tuple()` -> raccourci pour `(vector.xint(), vector.yint())`.
+
+`vector.is_equal_to(other)` -> avec les opérateurs `==` et `!=`, deux vecteur serot comparés par leur longueur. utilisez `is_equal_to` pour tester si il sont *identiques*.
