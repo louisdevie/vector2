@@ -51,6 +51,15 @@ The x and y will override coords, wich will override angle and len."""
 		if self.x and self.y:
 			return True
 		return False
+	
+	
+	def __getitem__(self, key):
+		if key == 0:
+			return self.x
+		elif key == 1:
+			return self.y
+		else:
+			raise KeyError('Index out of range')
 
 
 	def __iadd__(self, vector):
